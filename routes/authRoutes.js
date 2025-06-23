@@ -89,7 +89,6 @@ router.post('/login', async (req, res, next) => {
 
     // Set refresh token in HTTP-Only cookie
     res.cookie('refreshToken', refreshToken, {
-      path: '/',
       httpOnly: true,
       secure: process.env.NODE_ENV === 'production',
       sameSite: process.env.NODE_ENV === 'production' ? 'none' : 'lax',
