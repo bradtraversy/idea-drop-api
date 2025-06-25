@@ -1,6 +1,6 @@
 # IdeaDrop API
 
-This is the Node.js/Express backend for the IdeaDrop project from my Modern React From The Beginning course. It includes a full CRUD API with protected routes and authentication using JWT access tokens as well as a refresh token.
+This is the Node.js/Express backend for the IdeaDrop project from my Modern React From The Beginning course. It includes a full CRUD API with protected routes and authentication using JWT access tokens as well as a refresh token. The frontend for this project can be found [here](https://github.com/bradtraversy/idea-drop-ui)
 
 ## Usage
 
